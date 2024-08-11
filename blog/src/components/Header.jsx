@@ -4,7 +4,7 @@ import { FaYoutube } from "react-icons/fa";
 
 function Header() {
   return (
-    <div className='flex items-center justify-between'>
+    <div className='flex items-center justify-between mr-4'>
         <img src= {logo} className='w-[180px]' />
         <ul className='flex gap-4 md:gap-14'>
             <li className='hover:font-bold font-bold cursor-pointer text-[25px]'>Home</li>
